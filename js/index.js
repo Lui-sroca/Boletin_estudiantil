@@ -30,6 +30,10 @@ document.getElementById("boton1").addEventListener("click", function(){
     for(let i = 1 ; i<13 ; i++){
 
         let numerosAleatoriios = Math.floor(Math.random()*6)
+
+        let suma =+ numerosAleatoriios
+        let promedio = suma/12
+
         if(numerosAleatoriios===3){
             document.getElementById("nota"+i).value = numerosAleatoriios;
             document.getElementById("ob"+i).value = "Debe mejorar"
@@ -47,7 +51,25 @@ document.getElementById("boton1").addEventListener("click", function(){
             document.getElementById("ob"+i).value = "reprobado"
         }
 
+        if(promedio==3){
+            document.getElementById("nota13").value = promedio;
+            document.getElementById("ob13").value = "Debe mejorar"
+        }
+        else if(promedio == 5){
+            document.getElementById("nota13").value = promedio;
+            document.getElementById("ob13").value = "Sobresaliente"
+        }
+        else if(promedio == 4 ){
+            document.getElementById("nota13").value = promedio;
+            document.getElementById("ob13").value = "Aprobado"
+        }
+        else if(promedio == 2 || promedio <2){
+            document.getElementById("nota13").value = promedio;
+            document.getElementById("ob13").value = "Reprobado"
+        }
+
         
+
     }
 
 })

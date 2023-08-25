@@ -15,13 +15,13 @@
     display: none;
 }
 
-#nota1, #nota2, #nota3, #nota4, #nota5, #nota6, #nota7, #nota8, #nota9, #nota10, #nota11, #nota12{
+#nota1, #nota2, #nota3, #nota4, #nota5, #nota6, #nota7, #nota8, #nota9, #nota10, #nota11, #nota12, #nota13{
     border: none;
     background-color: white;
     text-align: center;
 }
 
-#ob1, #ob2, #ob3, #ob4, #ob5, #ob6, #ob7, #ob8, #ob9, #ob10, #ob11, #ob12{
+#ob1, #ob2, #ob3, #ob4, #ob5, #ob6, #ob7, #ob8, #ob9, #ob10, #ob11, #ob12, #ob13{
     border: none;
     background-color: white;
     text-align: center;
@@ -29,10 +29,12 @@
 
 #tabla{
     border: solid 1px;
+    border-left:none ;
+    border-right: none;
 }
 
-#tabla td,tr, th{
-    border-right: solid 1px;
+#tabla td,tr,th{
+    border: solid 1px;
     text-align: center;
 }
 
@@ -101,6 +103,20 @@
  
 
 #label{
-    font-weight: bold   ;
+    font-weight: bold ;
 }
 
+
+
+#tabla .input-borrados{
+    border-left: none;
+    border-right: none;
+}
+
+#tabla #input-titulo1 {
+    border-left: solid 1px;
+}
+
+#tabla #input-titulo2{
+    border-right: solid 1px;
+}
