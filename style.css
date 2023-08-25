@@ -1,0 +1,106 @@
+*{
+    font-family: arial;
+}
+
+
+.img_institucion{
+    width: 150px;
+}
+
+.img_firma{
+    width: 150px;
+}
+
+#container2{
+    display: none;
+}
+
+#nota1, #nota2, #nota3, #nota4, #nota5, #nota6, #nota7, #nota8, #nota9, #nota10, #nota11, #nota12{
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+#ob1, #ob2, #ob3, #ob4, #ob5, #ob6, #ob7, #ob8, #ob9, #ob10, #ob11, #ob12{
+    border: none;
+    background-color: white;
+    text-align: center;
+} 
+
+#tabla{
+    border: solid 1px;
+}
+
+#tabla td,tr, th{
+    border-right: solid 1px;
+    text-align: center;
+}
+
+#tabla th{
+    background-color: RGB(214, 128, 141);
+}
+
+#input_nombre1, #input_apellido1, #input_ti1{
+    border: none;
+    border-bottom: solid 0.5px;
+    border-radius: 0px;
+    width: 500px;
+    background-color: RGB(225, 228, 233) ;
+}
+
+#boton1{
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+
+#form1{
+    margin-top: 50px;
+    margin-left:0px ;
+}
+
+#head{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#inputnombre, #inputapellido, #inputfecha, #inputti, #inputperiodo, #inputgrado{
+    border: none;
+    margin-left: 0px;
+    text-align: center;
+    background-color:rgb(199, 212, 236);
+    border-radius: 2px;
+}
+
+#titulo{    
+    color: RGB(48, 90, 115);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.numeros{
+    background-color: RGB(48, 90, 115);
+}
+
+#form-principio{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#form-principio #titulo{
+    margin-top: 40px;
+}
+
+#container1{
+    background-color: RGB(225, 228, 233);
+    height: 650px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+
+#label{
+    font-weight: bold   ;
+}
+

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+  <div class="container " id="container1">
+    <div id="form-principio">
+      <h1 class=" text-center" id="titulo">Boletin Estudiantil</h1>
+    <div id="form1">
+      <form>
+        <div class="mb-5">
+          <label  class="form-label" id="label">Nombre</label>
+          <input type="text"  id="input_nombre1" class="form-control" id="input" placeholder="Ingresa el nombre del estudiante">
+        </div>
+        <div class="mb-5">
+          <label  class="form-label" id="label">Apellido</label>
+          <input type="text" id="input_apellido1" class="form-control" id="input" placeholder="Ingresa el apellido del estudiante">
+        </div>
+        <div class="mb-5 form-label">
+          <label  class="form-label" id="label">Identificacion</label>
+          <input type="number" id="input_ti1" class="form-control" id="input" placeholder="Ingresa la targeta de identidad">
+        </div>
+        
+      </form>
+        <button type="submit" id="boton1" class="btn btn-primary">Generar Boletin</button>
+      </div>
+  </div>
+</div>
+
+    <div class="container" id="container2">
+        <div id="boletin">
+                <div class="head row align-items-center" id="head" >
+                    <div class="col-lg-3 text-center" ><img class="img_institucion" src="/img/escudo_institucion.png"></div>
+                    <h1 class=" col-lg-8 text-xxl-end" id="titulo">Institucion Educativa Maria Reina</h1>
+                </div>
+            <form>
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="row mb-2"> <label class="col-lg-2 md-2" id="label">Nombre: </label> <input id="inputnombre"  disabled type="text" class="col-10"> </div>
+                        <div class="row mb-2">  <label class="col-lg-2" id="label">Apellido: </label> <input id="inputapellido" disabled type="text" class="col-10"> </div>
+                        <div class="row mb-2">  <label class="col-lg-2" id="label">Grado: </label> <input id="inputgrado" type="text" disabled placeholder="4°" class="col-10"> </div>
+                    </div>
+                    <div class="col">
+                        <div class="row mb-2">  <label class="col-lg-2" id="label">Periodo: </label><input id="inputperiodo" disabled placeholder="3" class="col-10"> </div>
+                        <div class="row mb-2">  <label class="col-lg-2" id="label">Fecha: </label> <input id="inputfecha" disabled class="col-10"> </div>
+                        <div class="row mb-2">  <label class="col-lg-2" id="label">TI: </label><input id="inputti" disabled class="col-10"> </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="tabal_asignaturas m-5">
+
+                <table class="table" id="tabla">
+                    <thead>
+                      <tr>
+                        <th>N°</th>
+                        <th>Asignatura</th>
+                        <th>Notas</th>
+                        <th>Observacion</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Matematicas</td>
+                        <td><input disabled type="number" id="nota1"></td>
+                        <td><input disabled type="text" id="ob1"></td>
+                      </tr>
+                      <tr>
+                        <td class="numeros">2</td>
+                        <td>Ingles</td>
+                        <td><input disabled type="number" id="nota2"></td>
+                        <td><input disabled type="text" id="ob2"></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Literatura</td>
+                        <td><input disabled type="number" id="nota3"></td>
+                        <td><input disabled type="text" id="ob3"></td>
+                      </tr>
+                      <tr>
+                        <td class="numeros">4</td>
+                        <td>Biologia</td>
+                        <td><input disabled type="number" id="nota4"></td>
+                        <td><input disabled type="text" id="ob4"></td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>E. fisica</td>
+                        <td><input disabled type="number" id="nota5"></td>
+                        <td><input disabled type="text" id="ob5"></td>
+                      </tr>
+                      <tr>
+                        <td class="numeros">6</td>
+                        <td>Castellano</td>
+                        <td><input disabled type="number" id="nota6"></td>
+                        <td><input disabled type="text" id="ob6"></td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>Religion</td>
+                        <td><input disabled type="number" id="nota7"></td>
+                        <td><input disabled type="text" id="ob7"></td>
+                      </tr>
+                      <tr>
+                        <td class="numeros">8</td>
+                        <td>Arte</td>
+                        <td><input disabled type="number" id="nota8"></td>
+                        <td><input disabled type="text" id="ob8"></td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>Tics</td>
+                        <td><input disabled type="number" id="nota9"></td>
+                        <td><input disabled type="text" id="ob9"></td>
+                      </tr>
+                      <tr>
+                        <td class="numeros">10</td>
+                        <td>Cultura general</td>
+                        <td><input disabled type="number" id="nota10"></td>
+                        <td><input disabled type="text" id="ob10"></td>
+                      </tr>
+                      <tr>
+                        <td>11</td>
+                        <td>Quimica</td>
+                        <td><input disabled type="number" id="nota11"></td>
+                        <td><input disabled type="text" id="ob11"></td>
+                      </tr>
+                      <tr>
+                        <td class="numeros">12</td>
+                        <td>Filosofia</td>
+                        <td><input disabled type="number" id="nota12"></td>
+                        <td><input disabled type="text" id="ob12"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <img class="img_firma" src="/img/Firma_de_Lionel_Messi.svg.png">
+            <hr>
+            <p>Firma Profesor</p>
+          </div>
+          <div class="col-lg">
+            <img class="img_firma" src="/img/Cristiano_Ronaldo_Signature.svg.png">
+            <hr>
+            <p>Firma Director</p>
+          </div>
+          <div class="col-lg">
+            <img class="img_firma" src="/img/Assinatura_de_Neymar.png">
+            <hr>
+            <p>Firma Estudiante</p>
+          </div>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+  </body>
+  
+</html>
